@@ -1,6 +1,6 @@
-# **forEach**
+# **forEach\(\)**
 
-Example 1:
+**Example 1:**
 
 ```js
 colors.forEach(function(color){
@@ -8,7 +8,7 @@ colors.forEach(function(color){
 });
 ```
 
-Example 2:
+**Example 2:**
 
 ```js
 var numbers = [1,2,3,4,5];
@@ -19,9 +19,9 @@ numbers.forEach(function(number){
 sum; //15
 ```
 
-In forEach we don't need to pass anonymous function, we can pass a function:
+In forEach we don't need to pass anonymous function, we$$x = y$$ can pass a function:
 
-Example 2.1:
+**Example 2.1:**
 
 ```js
 var numbers = [1,2,3,4,5];

@@ -5,6 +5,7 @@
 * filter
 * find
 * every/some
+* reduce
 
 
 
