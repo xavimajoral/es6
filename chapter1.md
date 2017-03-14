@@ -1,6 +1,6 @@
 # Array Helper Methods
 
-* forEach\(\)
+* [forEach\(\)](/foreach.md)
 * map\(\)
 * filter\(\)
 * find\(\)
