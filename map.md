@@ -29,7 +29,7 @@ prices;
 
 **Example 3:**  
 Using map, create a new array that contains the 'height' property of each object.  
-Assign this new array to the variable 'heights'.    
+Assign this new array to the variable 'heights'.  
 Don't forget to use the 'return' keyword in the function!
 
 ```js
@@ -46,7 +46,7 @@ var heights = images.map(function(image) {
 
 **Example 4:**  
 Using map, create a new array that contains the distance / time value from each trip.  
-In other words, the new array should contain the \(distance / time\) value.    
+In other words, the new array should contain the \(distance / time\) value.  
 Assign the result to the variable 'speeds'.
 
 ```js
@@ -62,10 +62,10 @@ var speeds = trips.map(function(trip) {
 ```
 
 **Example 5:**  
-Implement a 'pluck' function.    
+Implement a 'pluck' function.  
 Pluck should accept an array and a string representing a property name and return an  array containing that property from each object.
 
-```
+```js
 var paints = [ { color: 'red' }, { color: 'blue' }, { color: 'yellow' }];
 pluck(paints, 'color'); // returns ['red', 'yellow', 'blue'];
 // Hint: Remember that you can access a property on an object by using square bracket notation. For example...
