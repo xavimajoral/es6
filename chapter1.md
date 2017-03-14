@@ -1,11 +1,11 @@
 # Array Helper Methods
 
-* forEach
-* map
-* filter
-* find
-* every/some
-* reduce
+* forEach\(\)
+* map\(\)
+* filter\(\)
+* find\(\)
+* every/some\(\)
+* reduce\(\)
 
 
 
