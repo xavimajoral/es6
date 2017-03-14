@@ -1,5 +1,7 @@
 # **forEach\(\)**
 
+The **`forEach()`**method executes a provided function once for each array element.
+
 **Example 1:**
 
 ```js
@@ -41,7 +43,7 @@ sum; //15
 
 **Exercise 1:**  
 The array below contains an array of objects, each of which is a representation of an image.  
-Using the forEach helper, calculate the area of each image and store it in a new array called 'areas'.   
+Using the forEach helper, calculate the area of each image and store it in a new array called 'areas'.  
 The area of an image can be calculated as 'image.height \* image.width'.
 
 ```js
@@ -62,17 +64,9 @@ images.forEach(function(image) {
 });
 ```
 
+**Links:**
 
-
-
-
-
-
-
-
-
-
-
+* [mdn - forEach\(\)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 
 
