@@ -1,3 +1,6 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Array Helper Methods](chapter1.md)
+* [forEach](foreach.md)
+
