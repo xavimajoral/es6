@@ -21,8 +21,6 @@ We create a new subset, don't want to modify the original array
 
 > Don't forget to include the return!
 
-
-
 **Another example with more conditions:**  
 Type is vegetable, quantity is greater than 0, prices is less than 10
 
@@ -53,7 +51,7 @@ function commentsForPost(post, comments) {
 commentsForPost(post, comments);
 ```
 
-**Exercise: Filtering Values    
+**Exercise: Filtering Values      
 **Filter the array of numbers using the filter helper, creating a new array that only contains numbers greater than 50.  
 Assign this new array to a variable called 'filteredNumbers'. Don't forget to use the 'return' keyword in the function!
 
@@ -73,7 +71,7 @@ function filterOne(numbers) {
 filterOne(numbers);
 ```
 
-**Exercise: Handling Permissions with Filter    
+**Exercise: Handling Permissions with Filter      
 **Filter the array of users, only returning users who have admin level access.  
 Assign the result to the variable 'filteredUsers'. Don't forget to use the 'return' keyword in the function!
 
@@ -99,7 +97,7 @@ function filterUsers(users) {
 filterUsers(users);
 ```
 
-**Exercise: Challenging! Implementing 'reject'.    
+**Exercise: Challenging! Implementing 'reject'.   
 **This is a hard one!  Create a function called 'reject'.  
 Reject should work in the opposite way of 'filter' - if a function returns 'true', the item should \*not\* be included in the new array. **Hint**: you can reuse filter.
 
