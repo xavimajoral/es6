@@ -1,6 +1,6 @@
 # **forEach\(\)**
 
-The **`forEach()`**method executes a provided function once for each array element.
+The `forEach()`method executes a provided function once for each array element.
 
 **Example 1:**
 
@@ -9,6 +9,8 @@ colors.forEach(function(color){
   console.log(color);
 });
 ```
+
+---
 
 **Example 2:**
 
@@ -67,8 +69,6 @@ images.forEach(function(image) {
 **Links:**
 
 * [mdn - forEach\(\)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-
-
 
 
 
