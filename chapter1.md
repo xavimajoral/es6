@@ -3,7 +3,7 @@
 * [forEach\(\)](/foreach.md)
 * [map\(\)](/map.md)
 * [filter\(\)](/filter.md)
-* find\(\)
+* [find\(\)](/find.md)
 * every/some\(\)
 * reduce\(\)
 
