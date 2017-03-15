@@ -1,6 +1,8 @@
 # **filter\(\)**
 
-Filter out or sort some products
+**Example:**  
+Filter out or sort some products.  
+Classic Use Case --&gt; Only show me some specific type, **i.e:** vegetable
 
 ```js
 var products = [
@@ -9,19 +11,17 @@ var products = [
   { name: 'celery', type: 'vegetable' },
   { name: 'orange', type: 'fruit' }
 ];
-```
 
-Classic Use Case =&gt; Only show me some type, i.e: vegetable
-
-```js
 products.filter(function(product) {
-	return product.type === 'vegetable';
+    return product.type === 'vegetable';
 });
 ```
 
 We create a new subset, don't want to modify the original array
 
-Don't forget to include the return!!!!
+> Don't forget to include the return!
+
+
 
 **Another example with more conditions:**  
 Type is vegetable, quantity is greater than 0, prices is less than 10
@@ -29,8 +29,8 @@ Type is vegetable, quantity is greater than 0, prices is less than 10
 ```js
 products.filter(function(product) {
   return product.type === 'vegetable'
-  	&& product.quantity > 0
-  	&& product.price < 15
+      && product.quantity > 0
+      && product.price < 15
 });
 ```
 
@@ -45,15 +45,15 @@ var comments = [
 ];
 
 function commentsForPost(post, comments) {
-	return comments.filter(function(comment) {
-  	return comment.postId === post.id;
+    return comments.filter(function(comment) {
+      return comment.postId === post.id;
   });
 }
 
 commentsForPost(post, comments);
 ```
 
-**Exercise: Filtering Values  
+**Exercise: Filtering Values    
 **Filter the array of numbers using the filter helper, creating a new array that only contains numbers greater than 50.  
 Assign this new array to a variable called 'filteredNumbers'. Don't forget to use the 'return' keyword in the function!
 
@@ -73,7 +73,7 @@ function filterOne(numbers) {
 filterOne(numbers);
 ```
 
-**Exercise: Handling Permissions with Filter  
+**Exercise: Handling Permissions with Filter    
 **Filter the array of users, only returning users who have admin level access.  
 Assign the result to the variable 'filteredUsers'. Don't forget to use the 'return' keyword in the function!
 
@@ -99,7 +99,7 @@ function filterUsers(users) {
 filterUsers(users);
 ```
 
-**Exercise: Challenging! Implementing 'reject'.  
+**Exercise: Challenging! Implementing 'reject'.    
 **This is a hard one!  Create a function called 'reject'.  
 Reject should work in the opposite way of 'filter' - if a function returns 'true', the item should \*not\* be included in the new array. **Hint**: you can reuse filter.
 
@@ -117,12 +117,6 @@ function reject(array, iteratorFunction) {
 
 }
 ```
-
-
-
-
-
-
 
 
 
