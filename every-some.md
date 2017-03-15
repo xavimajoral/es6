@@ -1,6 +1,8 @@
 # every\(\), some\(\)
 
-**Example 1:  
+![](/assets/every.png)
+
+**Example 1:    
 **Want to find the computers with greater than 16gb of ram:
 
 ```js
@@ -23,7 +25,7 @@ var onlySomeComputersCanRunProgram = false;
 ```js
 for (var i = 0; i < computers.length; i++) {
   var computers = computers[i];
-  
+
   if (computers.ram < 16) {
     allComputersCanRunProgram = false;
   } else {
@@ -57,7 +59,7 @@ computers.some(function(computer) {
 
 ---
 
-**Example 2:  
+**Example 2:    
 **Check that the length of name is greater than 4 charac.
 
 ```js
@@ -76,7 +78,7 @@ names.some(function(name) {
 
 ---
 
-**Example 3:  
+**Example 3:    
 **Form validation
 
 ```js
@@ -85,7 +87,7 @@ function Field(value) {
 }
 
 Field.prototype.validate = function() {
-	return this.value.length > 0;
+    return this.value.length > 0;
 }
 
 var username = new Field('Xavi');
@@ -95,11 +97,11 @@ var birthday = new Field('10/10/2017');
 var fields = [username, password, birthday];
 
 var formIsValid = fields.every(function(field) {
-	return field.validate();
+    return field.validate();
 });
 
 if (formIsValid) {
-	//allow user to Submit
+    //allow user to Submit
 } else {
   // show error messages
 }

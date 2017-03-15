@@ -7,5 +7,5 @@
 * [every/some\(\)](/every-some.md)
 * reduce\(\)
 
-
+![](/assets/array_helpers.png)
 
