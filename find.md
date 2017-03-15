@@ -2,6 +2,8 @@
 
 **Purpose**: to search to an Array and look for a particular element in the Array
 
+![](/assets/find.png)
+
 As soon it's find the helper will return that record
 
 **Example 1:**
@@ -21,7 +23,7 @@ users.find(function(user){
 
 ---
 
-**Example 2:        
+**Example 2:          
 **Try to find the car with some particular criteria
 
 ```js
@@ -42,7 +44,7 @@ cars.find(function(car){
 
 ---
 
-**Example 3:        
+**Example 3:          
 **Find the posts where belongs the comment.
 
 ```js
@@ -64,7 +66,7 @@ postForComment(posts, comment);
 
 ---
 
-**Example 4:        
+**Example 4:          
 **Find the user in the users's array who is an admin.  Assign this user to the variable 'admin'.
 
 ```js
@@ -86,7 +88,7 @@ users.find(function(user){
 
 ---
 
-**Example 5:      
+**Example 5:        
 **Find the account with a balance of 12 and assign it to the variable 'account'.
 
 ```js
