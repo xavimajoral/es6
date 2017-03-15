@@ -14,6 +14,8 @@ doubled;
 
 Used when we want to modify records in some lists of data
 
+---
+
 **Example 2:**
 
 ```js
@@ -26,6 +28,8 @@ var prices = cars.map(function(car) {
 });
 prices;
 ```
+
+---
 
 **Example 3:**  
 Using map, create a new array that contains the 'height' property of each object.  
@@ -44,6 +48,8 @@ var heights = images.map(function(image) {
 });
 ```
 
+---
+
 **Example 4:**  
 Using map, create a new array that contains the distance / time value from each trip.  
 In other words, the new array should contain the \(distance / time\) value.  
@@ -60,6 +66,8 @@ var speeds = trips.map(function(trip) {
     return (trip.distance/trip.time);
 });
 ```
+
+---
 
 **Example 5:**  
 Implement a 'pluck' function.  
