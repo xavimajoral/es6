@@ -19,7 +19,9 @@ users.find(function(user){
 // Only returns the first ocurrency that founds in case there are more than 1
 ```
 
-**Example 2:    
+---
+
+**Example 2:      
 **Try to find the car with some particular criteria
 
 ```js
@@ -38,7 +40,9 @@ cars.find(function(car){
 });
 ```
 
-**Example 3:    
+---
+
+**Example 3:      
 **Find the posts where belongs the comment.
 
 ```js
@@ -58,7 +62,11 @@ function postForComment(posts, comment) {
 postForComment(posts, comment);
 ```
 
-**Example 4:    
+---
+
+---
+
+**Example 4:      
 **Find the user in the users's array who is an admin.  Assign this user to the variable 'admin'.
 
 ```js
@@ -78,7 +86,9 @@ users.find(function(user){
 });
 ```
 
-**Example 5:  
+---
+
+**Example 5:    
 **Find the account with a balance of 12 and assign it to the variable 'account'.
 
 ```js
@@ -97,6 +107,8 @@ accounts.find(function(acc){
     }
 });
 ```
+
+---
 
 **Example 6:**  
 This is a tough one!  The most common find operation is to an object that has a given property.  
@@ -123,16 +135,4 @@ Hint: the hard part of this is figuring out the name of the proeprty on the crit
 You can use Object.keys\(criteria\)\[0\] to figure out the name of the property on the object.
 
 For example, Object.keys\({ height: '20 feet' }\) would return 'height'.  You could then check to see if a given element in the array had a property equal to the criteria's value with something like element\[property\] === criteria\[property\].
-
-
-
-
-
-
-
-
-
-
-
-
 
