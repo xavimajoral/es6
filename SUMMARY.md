@@ -9,4 +9,5 @@
 * [every\(\), some\(\)](every-some.md)
 * [Experiments 1.0](experiments-10.md)
 * [Experiment 2.0](experiment-20.md)
+* [Arrow functions](arrow-functions.md)
 
